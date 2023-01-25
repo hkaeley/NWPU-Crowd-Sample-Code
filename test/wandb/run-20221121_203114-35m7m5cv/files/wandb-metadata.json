@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.9.0",
+    "heartbeatAt": "2022-11-22T04:31:15.077236",
+    "startedAt": "2022-11-22T04:31:14.689656",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+    "gpu_count": 1,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Me\\eecs_159a\\eecs_159a_ml\\test\\crowd_output.py",
+    "codePath": "test\\crowd_output.py",
+    "git": {
+        "remote": "https://github.com/hkaeley/eecs_159a_ml",
+        "commit": "4eeb1579fc46a4045af7b9c6d10e0d2553e8112d"
+    },
+    "email": "harsimratkaeley@gmail.com",
+    "root": "C:/Users/Me/eecs_159a/eecs_159a_ml",
+    "host": "DESKTOP-49J6K0N",
+    "username": "Me",
+    "executable": "C:\\Python39\\python.exe"
+}

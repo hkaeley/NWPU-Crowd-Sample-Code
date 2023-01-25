@@ -30,11 +30,11 @@ restore = standard_transforms.Compose([
 pil_to_tensor = standard_transforms.ToTensor()
 LOG_PARA = 100.0
 
-dataRoot = '../ProcessedData/Data.2019.11/NWPU/1204_min_576x768_mod16_2048'
+dataRoot = 'test'
 
-#model_path = 'exp/12-06_15-03_NWPU_Res101_SFCN_1e-05/latest_state.pth'
-model_path = 'exp/12-06_15-03_NWPU_Res101_SFCN_1e-05/all_ep_321_mae_90.7_mse_487.2_nae_0.375.pth'
-
+#model_path = 'exp/12-06_15-03_NWPU_Res101_SFCN_1e-05/SCAR-latest.pth'
+model_path = 'test/SCAR-latest.pth'
+model_name = "SCAR"
 def main():
 
     txtpath = os.path.join(dataRoot, 'txt_list', 'test.txt')
@@ -46,7 +46,7 @@ def main():
 
 def test(file_list, model_path):
 
-    net = CrowdCounter(cfg.GPU_ID, 'Res101_SFCN')
+    net = CrowdCounter(cfg.GPU_ID, model_name)
     net.cuda()
     #lastest_state = torch.load(model_path)
     #net.load_state_dict(lastest_state['net'])
