@@ -12,7 +12,15 @@ Compared with the original C^3 Framework,
 These features will be merged into C^3 Framework as soon as possible.
 
 
-# Getting Started
+# Getting Started (EECS 159)
+
+## Install Dependencies  
+run ```pip install -r requirements.txt```
+
+## Conduct Prediction On One Image Using Pretrained Model 
+run ```python test_one_image.py --img_loc IMAGE_LOCATION.jpg --model_loc SCAR-latest.pth```
+
+# Getting Started (General)
 
 ## Preparation
 - Prerequisites
