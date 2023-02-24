@@ -96,7 +96,7 @@ def test(imgname, model_path):
 
     pred = np.sum(pred_map) / LOG_PARA
 
-    print("Prediction value: ", pred)
+    print("Prediction value: ", int(pred))
 
 if __name__ == '__main__':
     ap = ArgumentParser(description='The parameters for training.')
